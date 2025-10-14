@@ -49,6 +49,8 @@ export default defineConfig({
 		}),
 		icon({
 			include: {
+				"ic": ["*"],
+				"iconoir": ["*"],
 				"preprocess: vitePreprocess(),": ["*"],
 				"fa6-brands": ["*"],
 				"fa6-regular": ["*"],
