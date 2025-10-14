@@ -21,16 +21,6 @@ export type SiteConfig = {
 		fixed: boolean;
 	};
 
-	// 增加字體設定
-	font: {
-		zenMaruGothic: {
-			enable: boolean;
-		};
-		hanalei: {
-			enable: boolean;
-		};
-	};
-
 	banner: {
 		enable: boolean;
 		src:
