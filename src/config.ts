@@ -10,19 +10,54 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "──(﹙˓ᯤ˒﹚)──",
 	subtitle: "嘗試連線中",
-	lang: "zh_TW", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-		fixed: false, // Hide the theme color picker for visitors
+		hue: 305, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		fixed: true, // Hide the theme color picker for visitors
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: [
+			"assets/images/banner/d1.jpg",
+			"assets/images/banner/d2.jpg",
+			"assets/images/banner/d3.jpg",
+			"assets/images/banner/d4.jpg",
+			"assets/images/banner/d5.jpg",
+			"assets/images/banner/d6.jpg",
+			"assets/images/banner/d7.jpg",
+		], // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		carousel: {
+			enable: true,
+			interval: 4,
+		},
+		homeText: {
+			enable: true,
+			title: "Hello, World!",
+
+			subtitle: [
+				"مرحباً",
+				"สวัสดี",
+				"Hola",
+				"Bonjour",
+				"안녕하세요",
+				"こんにちは",
+				"你好",
+			],
+			typewriter: {
+				enable: true,
+				speed: 100,
+				deleteSpeed: 50,
+				pauseTime: 3000,
+			},
+		},
 		credit: {
 			enable: false, // Display the credit text of the banner image
 			text: "", // Credit text to be displayed
 			url: "", // (Optional) URL link to the original artwork or artist's page
+		},
+		navbar: {
+			transparentMode: "semifull", // 透明模式："semi" 透明加圓角，"full" 完全透明，"semifull" 動態透明
 		},
 	},
 	toc: {
@@ -30,6 +65,10 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
+		{
+			src: "assets/images/icon.png",
+			sizes: "32x32",
+		},
 		// Leave this array empty to use the default favicon
 		// {
 		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
@@ -37,6 +76,14 @@ export const siteConfig: SiteConfig = {
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
 	],
+	font: {
+		zenMaruGothic: {
+			enable: true, // 启用全局圆体适合日语和英语，对中文适配一般
+		},
+		hanalei: {
+			enable: false, // 启用 Hanalei 字体作为全局字体，适合中文去使用
+		},
+	},
 };
 
 export const navBarConfig: NavBarConfig = {

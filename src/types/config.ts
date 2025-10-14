@@ -20,14 +20,49 @@ export type SiteConfig = {
 		hue: number;
 		fixed: boolean;
 	};
+
+	// 增加字體設定
+	font: {
+		zenMaruGothic: {
+			enable: boolean;
+		};
+		hanalei: {
+			enable: boolean;
+		};
+	};
+
 	banner: {
 		enable: boolean;
-		src: string;
+		src:
+			| string
+			| string[]
+			| {
+					desktop?: string | string[];
+					mobile?: string | string[];
+			  }; // 支持單個圖片、圖片列表
 		position?: "top" | "center" | "bottom";
+		carousel?: {
+			enable: boolean; // 是否使用輪流播放
+			interval: number; // 切換間隔時間（秒）
+		};
+		homeText?: {
+			enable: boolean; // 是否在 Home 顯示自定義文字
+			title?: string; // 主標題
+			subtitle?: string | string[]; // 副標題
+			typewriter?: {
+				enable: boolean; // 是否啟用打字機效果
+				speed: number; // 打字速度(毫秒)
+				deleteSpeed: number; // 刪除速度（毫秒）
+				pauseTime: number; // 完整顯示後的暫停時間（毫秒）
+			};
+		};
 		credit: {
 			enable: boolean;
 			text: string;
 			url?: string;
+		};
+		navbar?: {
+			transparentMode?: "semi" | "full" | "semifull"; // navbar 透明模式
 		};
 	};
 	toc: {

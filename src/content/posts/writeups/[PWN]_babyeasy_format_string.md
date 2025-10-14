@@ -8,8 +8,6 @@ category: 'CTF Writeups'
 draft: false 
 ---
 
-> Cover image source: [Source](https://is1ab.com/assets/logo-C130CGj2.png)
-
 :::info
 【is1ab 新生盃CTF 2024】
 - [Calculator](#Calculator)
@@ -21,7 +19,6 @@ draft: false
     - [x86_傳遞參數小補充](#x86_傳遞參數小補充)
     - [總結](#總結)
 - [參考資料](#參考資料)
->[name= islab WIFI]
 :::
 
 ## 題目敘述
