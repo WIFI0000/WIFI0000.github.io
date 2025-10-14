@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://WIFI0000.github.io",
+	site: "https://WIFI0000.github.io/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
