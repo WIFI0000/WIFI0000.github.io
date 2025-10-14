@@ -1,9 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+> - 𝑭𝒂𝒌𝒆 𝒊𝒕 𝒕𝒊𝒍𝒍 𝒚𝒐𝒖 𝒎𝒂𝒌𝒆 𝒊𝒕.
 
-::github{repo="saicaca/fuwari"}
+目前就讀於北科資安碩士，為 is1ab 實驗室成員。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+### 如果我用 2 個關鍵字形容自己
+從 IDS 踏入資安領域但現在想學 fuzzing / 入門即 reverse 到後來加入實驗室的 Pwn 組越來越挑戰極限
