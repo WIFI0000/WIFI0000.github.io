@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "WIFI ㄉ 網站",
-	subtitle: "",
+	title: "──(﹙˓ᯤ˒﹚)──",
+	subtitle: "嘗試連線中",
 	lang: "zh_TW", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -54,8 +54,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/profile.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "ⓂⓤⓏⓘ",
-	bio: "𝑻𝒉𝒆𝒓𝒆 𝒂𝒓𝒆 𝒍𝒂𝒚𝒆𝒓𝒔 𝒐𝒇 𝒅𝒆𝒂𝒕𝒉 𝒂𝒏𝒅 𝒓𝒆𝒃𝒊𝒓𝒕𝒉 𝒊𝒏 𝒐𝒏𝒆 𝒑𝒆𝒓𝒔𝒐𝒏.",
+	name: "𝗠𝘂𝗭𝗶",
+	bio: "𝘛𝘩𝘦𝘳𝘦 𝘢𝘳𝘦 𝘭𝘢𝘺𝘦𝘳𝘴 𝘰𝘧 𝘥𝘦𝘢𝘵𝘩 𝘢𝘯𝘥 𝘳𝘦𝘣𝘪𝘳𝘵𝘩 𝘪𝘯 𝘰𝘯𝘦 𝘱𝘦𝘳𝘴𝘰𝘯.",
 	links: [
 		{
 			name: "islab",
