@@ -1,5 +1,5 @@
 ---
-title: '[PWN] Easy - Calculator (is1ab CTF 2024)'
+title: '[PWN] Easy - is1ab CTF 2024'
 published: 2024-09-28
 description: '我ㄉ攻防組報告筆記'
 image: './is1ab_logo.png'

@@ -12,3 +12,6 @@ const sortedPostsList = await getSortedPostsList();
     <ArchivePanel sortedPosts={sortedPostsList} client:only="svelte"></ArchivePanel>
 </MainGridLayout>
 
+<main>
+  <ArchivePanel client:load username="WIFI0000" />
+</main>
