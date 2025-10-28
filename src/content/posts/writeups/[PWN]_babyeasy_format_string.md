@@ -3,8 +3,8 @@ title: '[PWN] Easy - Calculator (is1ab CTF 2024)'
 published: 2024-09-28
 description: '我ㄉ攻防組報告筆記'
 image: './is1ab_logo.png'
-tags: ["Pwn-Learning"]
-category: 'CTF Writeups'
+tags: ["CTF", "學習筆記"]
+category: 'PWN-Learning'
 draft: false 
 ---
 
@@ -201,9 +201,8 @@ $ checksec
       return uVar1;
     }
     ```
-:::spoiler 🔎 阿哈，是不是出現什麼熟悉的 **unsafe function**
+### 🔎 阿哈，是不是出現什麼熟悉的 **unsafe function**
  沒錯，就是在第八行 `gets(local_c)` 不會檢查使用者的輸入長度。
-:::
 ---
 
 ## Buffer_Overflow_戳一下
