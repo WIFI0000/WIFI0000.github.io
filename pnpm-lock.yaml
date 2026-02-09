@@ -38,6 +38,9 @@ importers:
       '@fontsource/roboto':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/ubuntu-mono':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@iconify-json/fa6-brands':
         specifier: ^1.2.6
         version: 1.2.6
@@ -1091,6 +1094,9 @@ packages:
 
   '@fontsource/roboto@5.2.8':
     resolution: {integrity: sha512-oh9g4Cg3loVMz9MWeKWfDI+ooxxG1aRVetkiKIb2ESS2rrryGecQ/y4pAj4z5A5ebyw450dYRi/c4k/I3UBhHA==}
+
+  '@fontsource/ubuntu-mono@5.2.8':
+    resolution: {integrity: sha512-N4nT8+GYWWcDODVSBLU4f3PycZQH9YIF6SypDI0rti3HrLqcXFS9u6wMvAd9vx1FmjAQkYv7Ld9CZ8XYTEOD0A==}
 
   '@iconify-json/fa6-brands@1.2.6':
     resolution: {integrity: sha512-twL3X4KWcxAhbc1vz/mIDsVr+CAItk1/EIfxKUVQtpv6O4eydk5KNYqTZWdvJNHGInUgd6vKg21aWfVgb5DXEg==}
@@ -6272,6 +6278,8 @@ snapshots:
   '@fontsource-variable/jetbrains-mono@5.2.8': {}
 
   '@fontsource/roboto@5.2.8': {}
+
+  '@fontsource/ubuntu-mono@5.2.8': {}
 
   '@iconify-json/fa6-brands@1.2.6':
     dependencies:

@@ -2,10 +2,10 @@ import Key from "../i18nKey";
 import type { Translation } from "../translation";
 
 export const zh_TW: Translation = {
-	[Key.home]: "首頁",
-	[Key.about]: "關於",
-	[Key.archive]: "彙整",
-	[Key.search]: "搜尋",
+	[Key.home]: "/home",
+	[Key.about]: "/about",
+	[Key.archive]: "/archives",
+	[Key.search]: "Search",
 
 	[Key.tags]: "標籤",
 	[Key.categories]: "分類",
@@ -26,9 +26,9 @@ export const zh_TW: Translation = {
 
 	[Key.themeColor]: "主題色",
 
-	[Key.lightMode]: "亮色",
-	[Key.darkMode]: "暗色",
-	[Key.systemMode]: "跟隨系統",
+	[Key.lightMode]: "淺色",
+	[Key.darkMode]: "深色",
+	[Key.systemMode]: "照你的喜好",
 
 	[Key.more]: "更多",
 

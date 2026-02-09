@@ -10,7 +10,7 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "──(﹙˓ᯤ˒﹚)──",
 	subtitle: "嘗試連線中",
-	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: "zh_TW", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 305, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: true, // Hide the theme color picker for visitors
@@ -31,11 +31,12 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		{
+			//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+			src: "/favicon/icon2.png", // Path of the favicon, relative to the /src directory
+			//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -54,8 +55,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/profile.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "𝗠𝘂𝗭𝗶",
-	bio: "𝘛𝘩𝘦𝘳𝘦 𝘢𝘳𝘦 𝘭𝘢𝘺𝘦𝘳𝘴 𝘰𝘧 𝘥𝘦𝘢𝘵𝘩 𝘢𝘯𝘥 𝘳𝘦𝘣𝘪𝘳𝘵𝘩 𝘪𝘯 𝘰𝘯𝘦 𝘱𝘦𝘳𝘴𝘰𝘯.",
+	name: "𝕎𝕀𝔽𝕀",
+	bio: "Coffee (n.) - A legal drug.",
 	links: [
 		{
 			name: "islab",
@@ -84,12 +85,11 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	theme: "github-dark",
 };
 
-// ...existing code...
+//GitHub Calendar 修復完畢
 export const calendarConfig = {
 	enabled: true,
 	username: "WIFI0000",
-	cardTitle: "Contributions",
+	cardTitle: "",
 	// 可選：自訂顏色盤或行為
-	palette: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+	palette: ["#f4effb", "#d9c6f2", "#b892e5", "#8c5bd3", "#5a2ca0"],
 };
-// ...existing code...
